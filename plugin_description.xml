@@ -1,0 +1,9 @@
+<library path="librosbag_record_rviz_plugin">
+  <class name="rosbag_record_rviz_plugin/RosbagRecordPlugin"
+         type="rosbag_record_rviz_plugin::RosbagRecordPlugin"
+         base_class_type="rviz::Panel">
+    <description>
+      rosbag_record_rviz_plugin panel plugin
+    </description>
+  </class>
+</library>
