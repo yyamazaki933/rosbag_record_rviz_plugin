@@ -31,15 +31,14 @@ public:
   void onDisable();
 
 private Q_SLOTS:
-  void startClicked();
-  void stopClicked();
+  void pb_diskClicked();
+  void pb_updateClicked();
+  void pb_startClicked();
+  void pb_stopClicked();
 
 private:
   ros::NodeHandle nh_;
-  std::string start_script_;
-  std::string stop_script_;
-  std::string comment_dir_;
-  std::string comment_file_;
+  std::string recorder_name_;
 
 protected:
   Ui::PluginUI* ui_;
